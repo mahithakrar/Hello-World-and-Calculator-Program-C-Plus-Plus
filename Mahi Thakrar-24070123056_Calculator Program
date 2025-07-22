@@ -42,3 +42,28 @@ int main() {
 //Enter the second number:
 //20
 //15+20=35
+
+
+//Enter an operator(+,-,/,*)
+//-
+//Enter the first number:
+//25
+//Enter the second number:
+//60
+//25-60=-35
+
+// Enter an operator(+,-,/,*)
+// /
+// Enter the first number:
+// 40
+// Enter the second number:
+// 20
+// 40/20=2
+
+// Enter an operator(+,-,/,*)
+// *
+// Enter the first number:
+// 15
+// Enter the second number:
+// 5
+// 15*5=75
