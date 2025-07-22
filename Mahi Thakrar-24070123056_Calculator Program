@@ -1,69 +1,35 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
-    char oper;
-    float num1,num2;
-    cout<<"Enter an operator(+,-,/,*)"<<endl;
-    cin>>oper;
-    cout<<"Enter the first number:"<<endl;
+int main(){
+    float num1, num2, sum=0,product,subtraction;
+    float division;
+    cout<< "Enter the first number:";
     cin>>num1;
-    cout<<"Enter the second number:"<<endl;
+    cout<< "Enter the second number:";
     cin>>num2;
     
-    switch(oper){
-        case '+' :
-        cout<<num1<<"+"<<num2<<"="<<num1 + num2<<endl;
-        break;
-        
-        case '-' :
-        cout<<num1<<"-"<<num2<<"="<<num1 - num2<<endl;
-        break;
-        
-        case '/' :
-        cout<<num1<<"/"<<num2<<"="<<num1 / num2<<endl;
-        break;
-        
-        case '*' :
-        cout<<num1<<"*"<<num2<<"="<<num1 * num2<<endl;
-        break;
-        
-        default:
-        cout<<"ERROR!!!The operator is not valid"<<endl;
-        break;
-    }
-
-    return 0;
+    sum=num1+num2;
+    cout<<"\nSum of given numbers:\n"<<sum;
+    
+    subtraction=num1-num2;
+    cout<<"\nThe subtraction of num1 and num2 is:\n"<<subtraction;
+    
+    product=num1*num2;
+    cout<<"\nThe product of num1 and num2 is:\n"<<product;
+    
+    division=num1/num2;
+    cout<<"\nThe division of num1 and num2 is:\n"<<division;
+    
 }
 
-//Enter an operator(+,-,/,*)
-//+
-//Enter the first number:
-//15
-//Enter the second number:
-//20
-//15+20=35
+//Enter the first number:15
+//Enter the second number:10
 
-
-//Enter an operator(+,-,/,*)
-//-
-//Enter the first number:
+//Sum of given numbers:
 //25
-//Enter the second number:
-//60
-//25-60=-35
-
-// Enter an operator(+,-,/,*)
-// /
-// Enter the first number:
-// 40
-// Enter the second number:
-// 20
-// 40/20=2
-
-// Enter an operator(+,-,/,*)
-// *
-// Enter the first number:
-// 15
-// Enter the second number:
-// 5
-// 15*5=75
+//The subtraction of num1 and num2 is:
+//5
+//The product of num1 and num2 is:
+//150
+//The division of num1 and num2 is:
+//1.5
