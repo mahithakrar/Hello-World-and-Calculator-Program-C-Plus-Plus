@@ -34,3 +34,11 @@ int main() {
 
     return 0;
 }
+
+//Enter an operator(+,-,/,*)
+//+
+//Enter the first number:
+//15
+//Enter the second number:
+//20
+//15+20=35
