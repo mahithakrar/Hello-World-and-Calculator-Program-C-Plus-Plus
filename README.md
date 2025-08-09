@@ -1,50 +1,87 @@
 # Hello-World-and-Calculator-Program-C-Plus-Plus
 
-Overview:
-This repository contains a collection of basic C++ programs that demonstrate fundamental programming concepts. Each program is designed to build a strong foundation in C++ by exploring key elements like input/output operations, data types, conditionals, and arithmetic operations.
+# 1.Hello World Program in C++
 
-Hello World in C++ :
-This is a basic C++ program that prints **"Hello World "** to the screen.
-The "Hello World " program is usually the first step when learning a new programming language. It helps you understand how to:
-- Write basic C++ syntax
-- Use the `main` function
-- Print text to the console using `cout`
+## Overview
+This is a basic C++ program that prints the text **"Hello World"** to the console.  
+It is often the first program beginners write when learning a new programming language, as it demonstrates the basic structure of the language and how to produce output.
 
-Requirements :
-A C++ Compiler
+---
 
-Conclusion:
-UnderstOOD how to print text and get familiar with the syntax and structure of a simple C++ program.
+## Theory
+The "Hello World" program serves as an introductory example to understand:
+- **Basic Syntax**: How a C++ program is structured.
+- **Header Files**: `#include <iostream>` is used to include the input-output stream library.
+- **Namespaces**: `using namespace std;` allows using standard library components without the `std::` prefix.
+- **Output Statement**: `cout` is used to display output on the screen.
+- **Main Function**: `int main()` is the entry point where execution begins.
+- **Return Statement**: `return 0;` indicates the program executed successfully.
+
+---
+
+## Algorithm
+1. **Start** the program.
+2. Include the input-output stream library using `#include <iostream>`.
+3. Use the standard namespace `using namespace std;`.
+4. Define the `main()` function.
+5. Inside the `main()` function, use `cout` to print **"Hello World"** to the console.
+6. End the program by returning `0`.
+
+# 2.Arithmetic Operations Program in C++
+
+## Overview
+This program takes two floating-point numbers as input from the user and performs the following arithmetic operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division  
+
+It then displays the results of these operations.
+
+---
+
+## Theory
+Arithmetic operations are fundamental in programming and are used in almost every application that involves numerical data.  
+In C++, these operations are performed using arithmetic operators:
+- `+` : Addition
+- `-` : Subtraction
+- `*` : Multiplication
+- `/` : Division
+
+**Key Components in the Program:**
+1. **Header File**:  
+   `#include <iostream>` is used for input and output operations.
+2. **Namespace**:  
+   `using namespace std;` allows using standard library names without the `std::` prefix.
+3. **Data Types**:  
+   `float` is used to store numbers with decimal values.
+4. **Input/Output**:  
+   - `cin` is used to take input from the user.
+   - `cout` is used to display output.
+5. **Variables**:  
+   - `num1` and `num2` store the user inputs.
+   - `sum`, `subtraction`, `product`, and `division` store results of operations.
+
+---
+
+## Algorithm
+1. **Start** the program.
+2. Include the input-output stream library using `#include <iostream>`.
+3. Use the standard namespace `using namespace std;`.
+4. Declare `float` variables: `num1`, `num2`, `sum`, `product`, `subtraction`, and `division`.
+5. Prompt the user to **enter the first number** and store it in `num1`.
+6. Prompt the user to **enter the second number** and store it in `num2`.
+7. Perform addition: `sum = num1 + num2` and display the result.
+8. Perform subtraction: `subtraction = num1 - num2` and display the result.
+9. Perform multiplication: `product = num1 * num2` and display the result.
+10. Perform division: `division = num1 / num2` and display the result.
+11. **End** the program.
 
 
-
-# Calculator Program
-
-This program acts as a basic command-line calculator that performs the four fundamental arithmetic operations:
-1)Addition
-2)Subtraction
-3)Multiplication
-4)Division
-
-In C++, a calculator program demonstrates the use of:
-- Input/output using `cin` and `cout`
-- Arithmetic operators: `+`, `-`, `*`, `/`
-- Looping (if extended to multiple calculations)
-- Functions (if modularized)
-
-
-How it works:
-1. The user is asked to enter two numbers.
-2. The user then chooses an operation (e.g., +, -, *, /).
-3. The program performs the selected operation.
-4. The result is printed on the screen.
-
-Requirements:
-1)A C++ compiler (like g++ or clang++)
-2)Basic understanding of C++ syntax
-
-Conclusion:
-This calculator program is a simple way to understand how C++ handles:
- User input
- Arithmetic operations
-It lays a strong foundation for more complex applications involving functions, loops, and error checking.
+**Conclusion:**  
+By completing both programs, learners gain an understanding of:
+- The syntax and structure of a C++ program.
+- How to work with input and output streams.
+- How to use variables to store data.
+- Performing basic operations and displaying results.
+- The importance of sequential logic in problem-solving.
